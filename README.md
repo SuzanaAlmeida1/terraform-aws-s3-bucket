@@ -36,4 +36,4 @@ terraform apply
 terraform destroy
 
 Observações
-As credencias da AWS não fazem parte deste repositório. Elas são configuradas por variáveis de ambiente.
+As credencias da AWS não fazem paconsolerte deste repositório. Elas são configuradas por variáveis de ambiente.
