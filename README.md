@@ -17,8 +17,9 @@ Criar um bucket S3 utilizando Infraestructure as Code (IaC) com Terraform.
 ## Recursos criados
 
 - Amazon S3 Bucket
+- Versionamento (S3 Bucket Versioning)
 - Tags padrão
-- Proviter AWS (sa-east-1)
+- Provider AWS (sa-east-1)
 
 ## Estrutura
 
@@ -28,6 +29,8 @@ Criar um bucket S3 utilizando Infraestructure as Code (IaC) com Terraform.
 
 '''bash
 terraform init
+terraform fmt
+terraform validate
 terraform plan
 terraform apply
 
